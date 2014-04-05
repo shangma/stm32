@@ -1,0 +1,43 @@
+
+Adatronics_Arc_R1.name=Adatronics Arc R1(USB_To_Serial)
+Adatronics_Arc_R1.vid.0=0x0403
+Adatronics_Arc_R1.pid.0=0x6001
+Adatronics_Arc_R1.upload.tool=sloadhost
+Adatronics_Arc_R1.upload.protocol=
+Adatronics_Arc_R1.upload.maximum_size=393216
+Adatronics_Arc_R1.upload.use_1200bps_touch=false
+Adatronics_Arc_R1.upload.wait_for_upload_port=false
+Adatronics_Arc_R1.upload.native_usb=false
+Adatronics_Arc_R1.build.mcu=cortex-m3
+Adatronics_Arc_R1.build.f_cpu=32000000L
+Adatronics_Arc_R1.build.usb_product="Adatronics_Arc_R1"
+Adatronics_Arc_R1.build.board=STM32_Arc
+Adatronics_Arc_R1.build.core=arduino
+Adatronics_Arc_R1.build.extra_flags=-DSTM32L1XX_HD -mthumb {build.usb_flags}
+Adatronics_Arc_R1.build.ldscript=linker_scripts/gcc/flash.ld
+Adatronics_Arc_R1.build.variant=arc
+Adatronics_Arc_R1.build.variant_system_lib=libstm_stm32l1xx_hd_gcc_rel.a
+Adatronics_Arc_R1.build.vid=0x0403
+Adatronics_Arc_R1.build.pid=0x6001
+
+Adatronics_Sharp_R1.name=Adatronics Sharp R1(USB_To_Serial)
+Adatronics_Sharp_R1.vid.0=0x0403
+Adatronics_Sharp_R1.pid.0=0x6001
+Adatronics_Sharp_R1.upload.tool=sloadhost
+Adatronics_Sharp_R1.upload.protocol=
+Adatronics_Sharp_R1.upload.maximum_size=393216
+Adatronics_Sharp_R1.upload.use_1200bps_touch=false
+Adatronics_Sharp_R1.upload.wait_for_upload_port=false
+Adatronics_Sharp_R1.upload.native_usb=false
+Adatronics_Sharp_R1.build.mcu=cortex-m3
+Adatronics_Sharp_R1.build.f_cpu=32000000L
+Adatronics_Sharp_R1.build.usb_product="Adatronics_Sharp_R1"
+Adatronics_Sharp_R1.build.board=STM32_SHARP
+Adatronics_Sharp_R1.build.core=arduino
+Adatronics_Sharp_R1.build.extra_flags=-DSTM32L1XX_MDP -mthumb {build.usb_flags}
+Adatronics_Sharp_R1.build.ldscript=linker_scripts/gcc/flash.ld
+Adatronics_Sharp_R1.build.variant=sharp
+Adatronics_Sharp_R1.build.variant_system_lib=libstm_stm32l1xx_mdp_gcc_rel.a
+Adatronics_Sharp_R1.build.vid=0x0403
+Adatronics_Sharp_R1.build.pid=0x6001
+
